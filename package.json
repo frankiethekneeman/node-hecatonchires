@@ -1,0 +1,14 @@
+{
+  "name": "hecatonchires",
+  "version": "0.0.1-beta",
+  "description": "Massive Out of band logging.",
+  "keywords": "Logging",
+  "author": {
+    "name": "Francis Van Wetering",
+    "email": "francis.wetering@complex.com"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "linkedlist": "^1.0.1"
+  }
+}

@@ -12,7 +12,7 @@ if (rootFolder.charAt(rootFolder.length - 1) != '/')
 var hecatonchires = {
     queues: {}
     , log: function(type, id, level, message) {
-        var queue = this.queues[type] = this.queues[type] || new Queue(type.toLowerCase() + '.log');
+        var queue = this.queues[type] = this.queues[type] || new Queue(rootFolder + type.toLowerCase() + '.log');
         queue.enqueue(id, level, message);
         this.waiting++;
         if (!timeout) {
